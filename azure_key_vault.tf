@@ -1,3 +1,4 @@
+# see https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault
 data "azurerm_client_config" "current" {}
 
 resource "azurerm_key_vault" "vault" {
