@@ -17,6 +17,7 @@ resource "azurerm_key_vault" "vault" {
     key_permissions = [
       "create",
       "delete",
+      "purge",
       "get",
       "list"
     ]
