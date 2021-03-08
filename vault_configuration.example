@@ -10,12 +10,12 @@ storage "raft" {
 }
 
 seal "azurekeyvault" {
-  tenant_id       = "hidden"
-  client_id       = "hidden"
-  client_secret   = "hidden"
+  tenant_id       = ""
+  client_id       = ""
+  client_secret   = ""
   vault_name      = "vault-on-aks"
   key_name        = "vault-aks"
-  subscription_id = "hidden"
+  subscription_id = ""
 }
 
 service_registration "kubernetes" {}
